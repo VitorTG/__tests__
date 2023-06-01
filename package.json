@@ -1,0 +1,28 @@
+{
+  "name": "sprint5",
+  "version": "1.0.0",
+  "description": "isso ai",
+  "main": "yes",
+  "scripts": {
+    "test": "jest",
+    "dev": "set NODE_ENV=dev && nodemon src/index.js --ignore tests",
+    "start": "set NODE_ENV=production && node src/index.js",
+    "test": "set NODE_ENV=test && jest --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "vitor",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-typescript": "^7.21.5",
+    "babel-jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jest": "^29.5.0"
+    
+  }
+}
